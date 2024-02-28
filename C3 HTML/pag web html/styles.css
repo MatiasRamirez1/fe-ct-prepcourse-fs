@@ -1,0 +1,49 @@
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 20px;
+        }
+
+  h1{
+    background-color: purple;
+    color: white;
+  }
+
+
+  #ulnav{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+
+.idulnav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h2 a:visited{
+    color:white;
+}
+    
+.idulnav:hover {
+        background-color: #111;
+      }
+
+
+ #searchbar{
+    margin-top: 20px;
+ }     
